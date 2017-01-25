@@ -19,6 +19,7 @@ public class ExperimentFacadeGenerate {
          * need.
          */
         FileExperimentDAOInterface exp = new FileExperimentDAOInterfaceIntegerMinImpl();
+        //Parameters are filename for graph, nodes, edges and iterations.
         exp.createNew("min1000agents", 50, 150, 1000);
         // FileExperimentDAOInterface exp = new FileExperimentDAOInterfaceRoutingImpl();
         // exp.createNew("testing_routing", 50, 100, 1);
